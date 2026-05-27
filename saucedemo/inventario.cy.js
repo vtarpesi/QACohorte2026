@@ -23,14 +23,5 @@ describe('Inventario - Sauce Demo', () => {
     })
     // hasta aca lo visto en clase
 
-    it('Imágenes de productos con problem_user', ()=>{
-         cy.get('.bm-burger-button').click()
-        cy.get('[data-test="logout-sidebar-link"]').click()
-         cy.get('[data-test="username"]').type('problem_user')
-        cy.get('[data-test="password"]').type('secret_sauce')
-        cy.get('[data-test="login-button"]').click()
-
-    })
-
 
 })
