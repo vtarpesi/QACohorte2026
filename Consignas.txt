@@ -1,0 +1,56 @@
+# Actividad | Clase 5
+
+### Automatización de pruebas con Cypress + Reporte de Bugs en Trello 🚀
+
+En esta actividad van a poner en práctica todo lo trabajado durante la clase: la automatización de casos de prueba con Cypress y el reporte correcto de bugs usando [Trello](https://trello.com/).
+
+Durante la clase automatizamos juntos los módulos de Login e Inventario. Los módulos de Carrito y Checkout quedan a su cargo.
+
+<aside>
+💡
+
+**Parte 1 — Automatización de casos de prueba**
+
+</aside>
+
+Lean los casos de prueba restantes del archivo Excel visto en clase y automatícenlos en Cypress.
+
+Requisitos de la automatización:
+
+- Utilizar los métodos vistos en clase (aserciones, aliases, scroll, viewport, etc.)
+- Pueden agregar otros métodos de Cypress que quieran explorar
+- Los tests deben poder ejecutarse sin depender de un orden específico
+
+<aside>
+💡
+
+**Parte 2 — Reporte de Bugs en Trello**
+
+</aside>
+
+En la suite de pruebas vista en clase hay 3 bugs identificados. Su tarea es:
+
+1. Crear un tablero de Trello para el proyecto SauceDemo.
+2. Reportar los 3 bugs utilizando el template de [reporte de bugs](https://drive.google.com/file/d/1Vc2H9J2SLMoC1jN6dKKAbxsOg9tUvAUv/view?usp=drive_link) visto en la Clase N°2.
+3. Cada tarjeta debe respetar la estructura completa del reporte de bug.
+
+<aside>
+💡
+
+*Tip: los 3 bugs están relacionados con el usuario problem_user. Revisá los TCs marcados como FAIL en el Excel.*
+
+</aside>
+
+### **Entrega**
+
+| **Formato de entrega** | **Fecha límite** |
+| --- | --- |
+| .zip con el proyecto  O  link al repositorio de GitHub | 02/06/2026 — 23:59 hs |
+| La entrega equivale a la asistencia de la clase |  |
+
+La entrega debe incluir:
+
+- Los archivos .cy.js con los tests automatizados
+- El link al tablero de Trello con los 3 bugs reportados
+
+*Si entregan un .zip, incluyan el link de Trello en un archivo README.txt dentro del zip.*
